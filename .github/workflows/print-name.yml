@@ -7,7 +7,7 @@ on:
 
 jobs:
   print-message:
-    runs-down: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print Hello World
         run: echo "Hello World from GitHub Actions!"
